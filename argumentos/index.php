@@ -1,12 +1,15 @@
 <?php
 
 //valores
-/*function greet($name)
+function greet()
 {
-    return "Hola, $name";
+    return ['PDF','vista'];
 }
 
-echo greet('Ana');*/
+var_dump(greet());
+
+exit();//detiene el sistema
+return; //solo retorna algo
 
 //referencias
 /*$course='PHP';
@@ -20,9 +23,9 @@ patch($course);
 echo $course;*/
 
 //predeterminado
-function greet($name='Ana')
+/*function greet($name='Ana')
 {
     return "Hola, $name...";
 }
 
-echo greet('Nena');
+echo greet('Nena');*/
